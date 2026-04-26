@@ -1,6 +1,6 @@
 console.log("البوت بيشتغل...");
 
-const ffmpegPath = require("ffmpeg-static");
+const ffmpegPath = process.env.FFMPEG_PATH || require("ffmpeg-static");
 const { spawn } = require("child_process");
 
 const {
