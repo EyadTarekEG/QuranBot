@@ -26,7 +26,7 @@ StreamType
 
 /*==============================*/
 
-const TOKEN = "MTQ5NzY3NTE4Mzg4Mjg5OTYyOQ.GvnE4n.wIc3pVtkcrdMb7mdIFk3B0RcR7QwPb97u9fT8A";
+const TOKEN = process.env.TOKEN;
 const PREFIX = "!";
 
 /*==============================*/
